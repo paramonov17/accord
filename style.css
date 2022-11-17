@@ -13,8 +13,6 @@ button {
     cursor: pointer;
   }
 
-
-
 .header{
     height: 64px;
     border-bottom: 1px solid #73BE43;
@@ -30,7 +28,6 @@ button {
     left: 0;
     top: 64px;
 }
-
 
 .header__container{
     padding: 23px 33px 24px 33px;
@@ -57,7 +54,6 @@ button {
     background-color: #E9262D;
 }
 
-
 .header__menu-burger::after,
 .header__menu-burger::before{
     content: "";
@@ -71,9 +67,6 @@ button {
     top: 16px;
 }
 
-
-
-
 h1.accordion__title {
     font-style: normal;
     font-weight: 700;
@@ -82,11 +75,9 @@ h1.accordion__title {
     margin: 34px 30px 24px 30px;
 }
 
-
 .accordion__container{
     padding: 0 25px;
 }
-
 
 .accordion__item-btn{
     width: 100%;
@@ -98,7 +89,6 @@ h1.accordion__title {
     text-align: left;
     border-top: 1px solid #E9262D;
     position: relative;
-
 }
 
 .accordion__item-btn::after,
@@ -133,11 +123,9 @@ h1.accordion__title {
     transform: rotate(45deg);
 }
 
-
 .btn-end{
     border-bottom: 1px solid #E9262D;
 }
-
 
 .accordion__item-text {
     display: none;
@@ -147,7 +135,6 @@ h1.accordion__title {
     display: block;
     border-left: 4px solid #E9262D;
 }
-
 
 .accordion__item-text ol {
     padding: 8px 18px 20px 18px;
@@ -175,7 +162,6 @@ h1.accordion__title {
     margin-right: 10px;
 }
 
-
 .accordion__control{
     display: flex;
     justify-content: center;
@@ -196,7 +182,6 @@ h1.accordion__title {
 .accordion__control-btn:hover{
     opacity: 0.8;
 }
-
 
 .accordion__control-btn:disabled{
     background: rgba(28, 26, 26, 0.15);
