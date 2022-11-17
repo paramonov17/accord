@@ -16,7 +16,6 @@ acordsBtn.forEach(function(item) {
 
         let currentTab = document.querySelector(tabId);
 
-
         if (! currentBtn.classList.contains('active') ) {
             currentBtn.classList.add('active');
             currentTab.classList.add('active');
@@ -32,17 +31,13 @@ acordsBtn.forEach(function(item) {
             btnControl.disabled = true;
 
         }
-       
-        
+      
         let acordsBtnActive = document.querySelectorAll('.accordion__item-btn.active');
 
         if (acordsBtn.length == acordsBtnActive.length){
         btnControl.disabled = false;
         }
-
-        
+   
     });
     
 });
-
-
